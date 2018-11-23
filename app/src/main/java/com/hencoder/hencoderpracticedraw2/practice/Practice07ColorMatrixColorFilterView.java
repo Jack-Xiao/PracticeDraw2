@@ -32,6 +32,14 @@ public class Practice07ColorMatrixColorFilterView extends View {
 
         // 使用 setColorFilter() 设置一个 ColorMatrixColorFilter
         // 用 ColorMatrixColorFilter.setSaturation() 把饱和度去掉
+
+        //使用矩阵对图形处理  矩阵换算算法:
+//        R’ = a*R + b*G + c*B + d*A + e;
+//        G’ = f*R + g*G + h*B + i*A + j;
+//        B’ = k*R + l*G + m*B + n*A + o;
+//        A’ = p*R + q*G + r*B + s*A + t;
+
+
     }
 
     @Override

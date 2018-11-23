@@ -38,10 +38,12 @@ public class Practice12PathEffectView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        //pathEffect 给图形的轮廓设置效果
 
         // 使用 Paint.setPathEffect() 来设置不同的 PathEffect
 
         // 第一处：CornerPathEffect
+
         canvas.drawPath(path, paint);
 
         canvas.save();
