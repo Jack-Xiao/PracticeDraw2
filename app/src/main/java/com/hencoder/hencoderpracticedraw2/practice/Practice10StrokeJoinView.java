@@ -50,6 +50,7 @@ public class Practice10StrokeJoinView extends View {
 
         canvas.translate(300, 0);
         // 第三种形状：ROUND
+        paint.setStrokeJoin(Paint.Join.ROUND);
         canvas.drawPath(path, paint);
 
         canvas.restore();
